@@ -1,0 +1,9 @@
+# Entrada de dados: solicita e armazena o nome do usuário e a senha
+nome = input("Escreva o nome do usuario: ")
+senha = input("digite sua senha: ")
+
+# Estrutura de Decisão: o operador 'and' exige que ambas as condições sejam verdadeiras simultaneamente
+if nome == "adm" and senha == "123":
+    print("login bem sucedido") # Retorno caso as credenciais estejam corretas
+else:
+    print("erro de login") # Retorno caso qualquer um dos dados esteja incorreto
