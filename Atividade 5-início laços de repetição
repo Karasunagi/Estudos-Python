@@ -1,0 +1,3 @@
+numero=int(input("digite o numero  para ver a tabuada dele")) # Entrada: solicita o número da tabuada e converte para inteiro
+for i in range(1,11): # Repetição: cria um laço que vai de 1 até 10
+  print(f"{numero} x {i} = {numero * i}") # Saída: calcula e exibe cada multiplicação formatada
