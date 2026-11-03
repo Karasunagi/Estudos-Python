@@ -1,0 +1,4 @@
+nome=input("digite seu nome: ") # Entrada: solicita ao usuário que digite o nome e o armazena como texto
+idade=int(input("digite sua idade: ")) # Entrada: solicita a idade e a converte para o tipo inteiro (número)
+
+print("Olá,", nome, "Você tem ",idade, "anos") # Saída: exibe uma mensagem personalizada unindo o nome e a idade
