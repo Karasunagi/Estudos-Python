@@ -1,0 +1,9 @@
+idade=int(input("digite sua idade: ")) # Entrada: lê a idade e converte em número inteiro
+
+# Condicional: classifica a faixa de idade comparando os valores
+if idade >=18:
+  print("Você é um adulto") # Resultado para maiores de 18 anos
+elif idade >=13 <=17:
+  print("Você é um adolescente") # Resultado para idades entre 13 e 17 anos
+else:
+  print("Você é uma criança.") # Resultado para menores de 13 anos
