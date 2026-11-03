@@ -1,0 +1,16 @@
+num1=float(input("Digite um número: ")) # Entrada: lê o primeiro número real
+num2=float(input("digite o segundo número: ")) # Entrada: lê o segundo número real
+
+soma=num1 + num2 # Processamento: calcula a soma dos valores
+media=(num1+num2)/2 # Processamento: calcula a média aritmética
+
+print("Soma: ",soma) # Saída: exibe o resultado da soma
+print("Média: ", media) # Saída: exibe o resultado da média
+
+# Condicional: compara os números para identificar qual é o maior e o menor
+if num1 > num2:
+  print("O maior valor é: ",num1) # Exibe num1 como maior
+  print("o menor valor é: ",num2) # Exibe num2 como menor
+else:
+  print("o mairo valor é: ",num2) # Exibe num2 como maior
+  print("o menor valor é: ",num1) # Exibe num1 como menor
